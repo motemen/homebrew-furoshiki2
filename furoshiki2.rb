@@ -4,7 +4,7 @@ class Furoshiki2 < Formula
   homepage "https://github.com/motemen/furoshiki2"
   head "https://github.com/motemen/furoshiki2.git"
 
-  depends_on :python3
+  depends_on "python3"
 
   resource "PyYAML" do
     url "https://files.pythonhosted.org/packages/4a/85/db5a2df477072b2902b0eb892feb37d88ac635d36245a72a6a69b23b383a/PyYAML-3.12.tar.gz"
